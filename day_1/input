@@ -1,0 +1,53 @@
+#nombre = input ("ingresa tu nombre;  ")
+#print ("hola " + nombre + ", bienvenido")
+
+
+### print("Dime lo que sea...") 
+# anything = input()
+# print("Hmm...", anything, "... ¿en serio?")
+#### anything = float(input("Ingresa un número: ")) 
+#something = anything ** 2.0
+# print(anything, "a la potencia de 2 es", something)
+
+
+###leg_a = float input("Ingresa la longitud del primer cateto: "))
+# leg_b = float(input("Ingresa la longitud del segundo cateto: "))
+# hypo = (leg_a**2 + leg_b**2) ** .5 
+#print("La longitud de la hipotenusa es:", str(hypo))
+
+
+####5
+# segundos = int ( input('segundos'))
+# minutos= int (input ( 'minutos'))
+# horas = int ( input ( 'horas'))
+
+###segundos_a_minutos = segundos /60
+# minutos_segundos = minutos * 60
+# horas_a_minutos = horas * 60
+# minutos_a_horas = minutos / 60
+
+          
+#fnam = input("¿Me puedes dar tu nombre por favor? ")
+#lnam = input("¿Me puedes dar tu apellido por favor? ")
+#print("Gracias. ")
+#print("\nTu nombre es " + fnam + " " + lnam + ".")
+
+
+### a = float ( input('ingresa el valor a ')) 
+# b = float (input ( 'ingresa el valor b '))
+
+### print ( '\nsuma: ', a + b) # mostrar el resultado de la suma aquí
+# print ( 'resta: ', a -b)
+# print ( 'multiplicación: ', a * b)# mostrar el resultado de la multiplicación aquí
+# print ( 'división: ', a / b) # mostrar el resultado de la división aquí
+# print("\n¡Eso es todo, amigos!")
+
+print ("hola mundo")
+
+
+
+
+
+
+
+
