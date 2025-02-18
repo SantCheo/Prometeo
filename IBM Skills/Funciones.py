@@ -2,13 +2,10 @@
 #siguiente
 # def nombre_de_la_funcion(arg1,arg2,arg...n):
 
-G = 'Esta variable es de ámbito Global' 
-def f1(): 
-E='Esta variable es local a f1. 
-Enclosing a f2' 
-def f2(): 
-L = 'Esta variable es local a f2' 
-print(L, E, G, sep = '\n') 
-f2() 
-f1() 
+s = 1 
+# Asigna a la variable <a> el resultado de la expresión 3 * 4 
+a = 3 * 4 
+# Asigna a la variable <a> la cadena de caracteres 'Pythonista' 
+a = 'Pythonista' 
 
+print ( a)
