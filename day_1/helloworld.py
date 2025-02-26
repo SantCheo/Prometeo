@@ -15,11 +15,31 @@
 # print(hour, ":", mins, sep='')
 
 # Se leen dos números
-number1 = int(input("Ingresa el primer número: "))
-number2 = int(input("Ingresa el segundo número: "))
-number3 = int(input("Ingresa el tercer número: "))
 
-largest_number = max(number1, number2, number3)
+# plant= input('..')
+
+# if plant=='Espatifilo':
+#     print ('Si, ¡El Espatifilo! es la mejor planta de todos los tiempos!')
+    
+# elif plant== 'pelargonio':
+#     print ('¡Espatifilo!, ¡No pelargonio!')
+    
+# else :                                                                                                                                                                                                  
+#     print ('No, ¡quiero un gran Espatifilo!')                                     
+
+# year = int(input("Introduce un año: "))
+
+# if year < 1582:
+# 	print("No esta dentro del período del calendario Gregoriano")
+# else:
+# 	if year % 4 != 0:
+# 		print("Año Común")
+# 	elif year % 100 != 0:
+# 		print("Año Bisiesto")
+# 	elif year % 400 != 0:
+# 		print("Año Común")
+# 	else:
+# 		print("Año Bisiesto")
+
  
-# Imprime el resultado.
-print("El número más grande es:", largest_number)
+
