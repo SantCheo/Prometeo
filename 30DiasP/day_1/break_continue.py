@@ -26,14 +26,15 @@
     
 # print ("Has dejado el bucle con éxito.")
 
-secreta = "chupacabra"
+# secreta = "chupacabra"
 
-while True:
-    palabra = input ("ingresa palabra")
-    if palabra == secreta:
-        break
-    print ("nee te equivocaste..")
+# while True:
+#     palabra = input ("ingresa palabra")
+#     if palabra == secreta:
+#         break
+#     print ("nee te equivocaste..")
     
     
     
-print ("Has dejado el bucle con éxito.")
+# print ("Has dejado el bucle con éxito.")
+
