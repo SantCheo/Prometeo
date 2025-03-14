@@ -6,7 +6,7 @@
 
 def suma (a, b):    
     resultado = a + b
-    return resultado
+    return resultado # guarda el valor 
 
 c= suma (2,2)
 d= suma (c,2)
