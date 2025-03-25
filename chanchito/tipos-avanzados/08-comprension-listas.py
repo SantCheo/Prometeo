@@ -17,10 +17,15 @@ usuarios= [
 # nombres = [usuario for usuario in usuarios if usuario[1] > 2]
 # print (nombres)
 
-#map:
-nombres = list (map(lambda usuario: usuario [0], usuarios))
-print (nombres)
+# #map:
+# nombres = list (map(lambda usuario: usuario [0], usuarios))
+# print (nombres)
 
-#Filter:
-menosUsuarios = list(filter(lambda usuario: usuario[1]>2, usuarios ))
-print (menosUsuarios)
+# #Filter:
+# menosUsuarios = list(filter(lambda usuario: usuario[1]>2, usuarios ))
+# print (menosUsuarios)
+
+lista1 = ['a', 'b', 'c', 'd']
+ultimo = lista1.pop()
+print(ultimo)
+print(lista1)
