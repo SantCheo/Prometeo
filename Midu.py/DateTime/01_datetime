@@ -1,0 +1,16 @@
+from datetime import datetime
+
+# Obtener la fecha y hora actual
+ahora = datetime.now()
+print('Fecha y hora actual:', ahora)
+
+
+# En este código, estamos importando datetime y luego obteniendo la fecha y hora actual.
+# Utilizamos strftime para formatear la fecha al formato día/mes/año.
+from datetime import datetime
+
+fecha_actual = datetime.now()
+formato_fecha = fecha_actual.strftime('%d/%m/%Y')
+print(formato_fecha)
+
+import requests
