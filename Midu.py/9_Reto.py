@@ -72,9 +72,23 @@ os.system ("clear")
 
 # # , miguel@gov.co.ok, lo.que+sea@shopping.online
 
-from datetime import datetime
+# from datetime import datetime
 
-fecha1 = datetime.strptime("2023-05-15", "%Y-%m-%d")
-fecha2 = datetime.strptime("2023-06-15", "%Y-%m-%d")
-diferencia = fecha2 - fecha1
-print(diferencia)
+# fecha1 = datetime.strptime("2023-05-15", "%Y-%m-%d")
+# fecha2 = datetime.strptime("2023-06-15", "%Y-%m-%d")
+# diferencia = fecha2 - fecha1
+# print(diferencia)
+
+
+texto =(" ...la función debe devolver los índices de estos dos números... " )
+remplazo = texto.replace("debe", "deberia") # reemplaza la palabra "debe" por "deberia"
+posicion = texto.find("debe") # busca la posicion de la palabra "debe"
+xato = remplazo.split("devolver")# # separa el texto en dos partes usando "devolver" como separador
+mutiplica = texto * 2 # multiplica la cadena
+eliminar = texto.strip() # elimina los espacios en blanco al inicio y al final de la cadena
+eliminar2 = eliminar.strip(".")
+print (xato)
+print (f"la posicion del texto es {posicion}")
+print (mutiplica)
+print (eliminar)
+print (eliminar2)

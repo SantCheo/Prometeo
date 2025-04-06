@@ -12,4 +12,3 @@ def alfa (text):
 
 print (alfa("vargneyjjktgulktwrh"))
 
-    wg
