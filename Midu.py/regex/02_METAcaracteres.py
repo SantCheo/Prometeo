@@ -82,8 +82,8 @@ print(validar_username('_usuario'))   # Salida: False
 import re
 
 def validar_telefono(telefono):
-patron = r'^\+\d{2,3}'
-return bool(re.match(patron, telefono))
+    patron = r'^\+\d{2,3}'
+    return bool(re.match(patron, telefono))
 
 # Ejemplos de uso
 print(validar_telefono('+34'))        # Salida: True

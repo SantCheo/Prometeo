@@ -15,7 +15,7 @@
 
 
 #6
-# nu1 = int (input("indica un numero entero"))
+# nu1 = int (input("indica un numero entero: "))
 
 # suma = (nu1*(nu1 + 1))/2
 
@@ -30,8 +30,8 @@
 # print (f"Tu IMC es {imc}")
 
 # #8
-# n= int(input ("numero 1"))
-# m= int(input ("numero 2"))
+# n= int(input ("numero 1: "))
+# m= int(input ("numero 2:"))
 
 # cociente= (n//m)
 # resto = (n%m)
@@ -76,18 +76,21 @@
 #        ahorros en el tercer año: {round (Año3, 2)},""")
 
 # #12
-# precio = 3.49
-# d= 0.6
+precio = 3.49
+descuento = 0.6
 
-# barras = int (input("numero de barras de pan que no son del día: "))
+barras = int (input("numero de barras de pan que no son del día: "))
 
-# costet = precio * barras
-# costef = costet * d
+coste_barra_f = precio * barras
+coste_barra_no = coste_barra_f * (1- descuento)
 
-# print (f"""
-#        Precio de barra de pan por unidad 3.49€
-#        Numero de barras vendidas  {barras}
-#        valor                      {costet}
-#        Descuento aplicado         60%
-#        Precio final con descuento {round(costef, 2)}
-#         """)
+print (f"""
+       Precio de barra de pan por unidad 3.49€
+       Numero de barras vendidas  {barras}
+       valor                      {coste_barra_f:.2f}€
+       Descuento aplicado         60%
+       Precio final con descuento {coste_barra_no:.2f}
+        """)
+
+
+
