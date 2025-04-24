@@ -8,8 +8,8 @@ os.system ("clear")
 # (por ejemplo Matemáticas, Física, Química, Historia y Lengua) 
 # en una lista y la muestre por pantalla.
 
-subjects = ["Matemática", "Física", "Química", "Historia", "lengua"]
-print (subjects)
+# subjects = ["Matemática", "Física", "Química", "Historia", "lengua"]
+# print (subjects)
 
 
 # #_____________________________________________________________________
@@ -36,15 +36,26 @@ print (subjects)
 # de la lista y <nota> cada una de las correspondientes notas introducidas por el usuario.
 
 
-subjects = ["Matemática", "Física", "Química", "Historia", "lengua"]
+# subjects = ["Matemática", "Física", "Química", "Historia", "lengua"]
 
-notas = []
-for x in subjects:
-    nota = input (f"Nota en {x}:")
-    notas.append(nota)
+# notas = []
+# for x in subjects:
+#     nota = input (f"Nota en {x}:")
+#     notas.append(nota)
 
-for i in range(len(subjects)):
-    print("En " + subjects[i] + " has sacado " + notas[i])
+# for i in range(len(subjects)):
+#     print("En " + subjects[i] + " has sacado " + notas[i])
 
-for i, subject in enumerate(subjects):
-    print("En " + subject + " has sacado " + notas[i])
+# for i, subject in enumerate(subjects):
+#     print("En " + subject + " has sacado " + notas[i])
+
+# #_____________________________________________________________________
+# Ejercicio 4
+# Escribir un programa que pregunte al usuario los números ganadores de la lotería primitiva, 
+# los almacene en una lista y los muestre por pantalla ordenados de menor a mayor.
+
+numbers = [int(input("Número ganador: ")) for i in range(6)]
+
+numbers.sort()
+ 
+print (f"Los numeros ganadores son: {numbers}  ", end="")
